@@ -1,4 +1,4 @@
-# NAVY
+# Unconventional Algorithms and Computation
 Tasks for a college course titled Nekonvenční Algoritmy a Výpočty (Unconventional Algorithms and Computation).
 
 The subject encompassed basics of neural networks, how a perceptron works, reinforcement-learning techniques and lastly generating 2D or 3D images using fractal geometry.
