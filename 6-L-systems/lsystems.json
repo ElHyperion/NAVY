@@ -1,0 +1,55 @@
+[
+    {
+        "name":"Windy tree",
+        "axiom":"F",
+        "rules":{"F":"FF+[+F-F-F]-[-F+F+F]"},
+        "angle":"180/8",
+        "line":20,
+        "pos":[-0.5, 0.2]
+    }, {
+        "name":"Serpinski triangle",
+        "axiom":"FXF--FF--FF",
+        "rules":{
+            "F":"FF",
+            "X":"--FXF++FXF++FXF--"
+        },
+        "angle":60,
+        "line":3,
+        "recursion":6
+    }, {
+        "name":"Levy curve",
+        "axiom":"F++F++F++F",
+        "rules":{"F":"-F++F-"},
+        "angle":45,
+        "line":5,
+        "recursion":10,
+        "pos":[-0.2, 0.3]
+    }, {
+        "name":"Triangle hive",
+        "axiom":"F+F+F",
+        "rules":{"F":"F+FF-F"},
+        "angle":120,
+        "line":7,
+        "recursion":5,
+        "pos":[-0.2, 0.3]
+    }, {
+        "name":"Pentagon field",
+        "axiom":"F-F-F-F-F",
+        "rules":{"F":"F-F-F++F+F-F"},
+        "angle":72,
+        "line":5,
+        "recursion":3,
+        "pos":[0, -0.6]
+    }, {
+        "name":"Mosaic",
+        "axiom":"F-F-F-F",
+        "rules": {
+            "F":"F-b+FF-F-FF-Fb-FF+b-FF+F+FF+Fb+FFF",
+            "b":"bbbbbb"
+        },
+        "angle":90,
+        "line":10,
+        "recursion":1,
+        "pos":[-0.2, -0.4]
+    }
+]
